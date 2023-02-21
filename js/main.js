@@ -6,3 +6,6 @@ const myLastName = prompt("Dimmi il tuo cognome");
 const myFavColor = prompt("Dimmi il tuo colore preferito");
 
 document.getElementById("password").innerHTML = myName + myLastName + myFavColor + 23;
+
+// oppure
+// document.getElementById("password").innerHTML = `${myName}${myLastName}${myFavColor}23`;
